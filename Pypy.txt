@@ -1,0 +1,33 @@
+install anaconda
+
+open anaconda prompt
+run as admin
+**********Setting up new enviroment***************
+conda update --all
+conda create --name python36(can be anything) python=3.6(version number)
+activate python36(for activating env)
+deactivate
+
+*******install packages**************
+conda install seaborn(Viz's)
+conda install spyder
+conda install jupyter
+
+list environments
+conda env list 
+* indicates active environment
+
+list packages
+conda list
+
+remove
+conda env remove --name deleteme 
+
+update package
+conda update
+
+# -> singleline comment
+''' -> 
+
+*****************
+GitHub: STATcowboy -> look for python code.
